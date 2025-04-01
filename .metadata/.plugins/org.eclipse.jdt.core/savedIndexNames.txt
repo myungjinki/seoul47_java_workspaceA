@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/Users/mjki/goinfre/seoul47_java_workspaceA/.metadata/.plugins/org.eclipse.jdt.core
+969212181.index
+3687501616.index
+1865797976.index
