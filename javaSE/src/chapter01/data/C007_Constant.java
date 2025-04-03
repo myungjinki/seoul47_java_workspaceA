@@ -10,7 +10,7 @@ public class C007_Constant {
 		final double RATE = 3.28;
 		System.out.println("이자율: " + RATE + "%");
 		int deposit = 10000;
-		System.out.println("1년 후 이다: " + deposit * RATE / 100 + "");
+		System.out.println("1년 후 이자: " + deposit * RATE / 100 + "");
 		
 		// 리터럴
 		// 변수에 대입되거나 수식에 직접 사용되는 값
