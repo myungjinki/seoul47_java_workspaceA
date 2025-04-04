@@ -8,7 +8,7 @@ public class C027_SwitchExpression {
 		String medal = switch (ranking) {
 							case 1 -> {
 								System.out.println("우승울 축하합니다.");
-								yield "금메달";
+								yield "금메달"; // 이 부분이 중요
 							}
 							case 2 -> "은메달";
 							case 3 -> "동메달";
@@ -16,5 +16,11 @@ public class C027_SwitchExpression {
 							default -> "참가상";
 						};
 		System.out.println(medal + "을 수여합니다.");
+		
+		switch (ranking) {
+			case 1 -> System.out.println("우승, 금메달");
+			case 2 -> System.out.println("은메달");
+			case 3 -> System.out.println("동메달");
+		}
 	}
 }
