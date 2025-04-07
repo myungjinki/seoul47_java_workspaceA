@@ -20,20 +20,40 @@ public class If_Example04 {
 		
 		System.out.print("점수 입력: ");
 		int score = scan.nextInt();
+		char grade = '수';
 		
+		// 1번
+		if (90 <= score && score <= 100) {
+			grade = '수';
+		} else if (80 <= score && score < 90) {
+			grade = '우';
+		} else if (70 <= score && score < 80) {
+			grade = '미';
+		} else if (60 <= score && score < 70) {
+			grade = '양';
+		} else if (0 <= score && score < 60) {
+			grade = '가';
+		} else {
+			System.out.println("잘못 입력했습니다.");
+			System.exit(0);			
+		}
+		System.out.println(grade);
+		
+		// 2번
 		if (score < 0 || score > 100) {
 			System.out.println("잘못 입력했습니다.");
 			System.exit(0);
 		} else if (score >= 90) {
-			System.out.println("수");
+			grade = '수';
 		} else if (score >= 80) {
-			System.out.println("우");
+			grade = '우';
 		} else if (score >= 70) {
-			System.out.println("미");
+			grade = '미';
 		} else if (score >= 60) {
-			System.out.println("양");
+			grade = '양';
 		} else {
-			System.out.println("가");
+			grade = '가';
 		}
+		System.out.println(grade);
 	}
 }
