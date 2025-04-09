@@ -14,5 +14,6 @@ public class C035_dowhile {
 			sum = sum + num;
 		} while (num != 0);
 		System.out.println("총 합계: " + sum);
+		scan.close();
 	}
 }

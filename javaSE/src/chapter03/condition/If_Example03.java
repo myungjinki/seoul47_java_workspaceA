@@ -21,5 +21,6 @@ public class If_Example03 {
 		} else {
 			System.out.println("홀수입니다.");			
 		}
+		scan.close();
 	}
 }

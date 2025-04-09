@@ -31,5 +31,6 @@ public class If_Example02 {
 		}
 		
 		System.out.println("최대값: " + max);
+		scan.close();
 	}
 }

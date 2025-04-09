@@ -44,5 +44,6 @@ public class If_Example06 {
 		}
 		
 		System.out.println("BMI지수: " + bmi + " (" + result + ")");
+		scan.close();
 	}
 }

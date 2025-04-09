@@ -40,5 +40,6 @@ public class Switch_Example02 {
 			default: System.out.println("잘못 입력했습니다.");
 		}
 		System.out.println("결과: " + result);
+		scan.close();
 	}
 }

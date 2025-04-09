@@ -55,5 +55,6 @@ public class If_Example04 {
 			grade = '가';
 		}
 		System.out.println(grade);
+		scan.close();
 	}
 }

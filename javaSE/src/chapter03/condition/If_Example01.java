@@ -29,6 +29,6 @@ public class If_Example01 {
 		} else {
 			System.out.println("'직사각형'의 넓이는 " + area + "입니다.");			
 		}
-		
+		scan.close();
 	}
 }

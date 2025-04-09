@@ -43,5 +43,6 @@ public class If_Example05 {
 		GregorianCalendar gc = new GregorianCalendar();
 		String result2 = gc.isLeapYear(year) ? "윤년" : "평년";
 		System.out.println(result2);
+		scan.close();
 	}
 }

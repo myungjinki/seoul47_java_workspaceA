@@ -38,7 +38,7 @@ public class Basic_Example02 {
 				"세, 키는 " + height +
 				"Cm입니다."
 				);
-		
+		scan.close();
 		
 //		Scanner scan = new Scanner(System.in);
 //		

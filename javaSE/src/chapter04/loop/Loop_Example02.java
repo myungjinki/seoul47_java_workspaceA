@@ -24,5 +24,6 @@ public class Loop_Example02 {
 			sum = sum + num;
 		}
 		System.out.println(sum);
+		scan.close();
 	}
 }

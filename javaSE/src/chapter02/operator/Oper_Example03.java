@@ -23,5 +23,6 @@ public class Oper_Example03 {
 		int sum = num100 + num10 + num1;
 		 
 		System.out.println("각 자리수의 합: " + sum);
+		scan.close();
 	}
 }

@@ -3,7 +3,7 @@ package chapter00.basic;
 public class C004_Variable_assign {
 	public static void main(String[] args) {
 		// 변수의 선언
-		int number;
+//		int number;
 //		int number; // 중복 X
 //		System.out.println(number); //초기화 X
 		
