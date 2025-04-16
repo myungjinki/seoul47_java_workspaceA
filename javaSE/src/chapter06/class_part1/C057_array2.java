@@ -15,5 +15,15 @@ public class C057_array2 {
 			System.out.println((i+1) + "번 학생의 성적: "
 					+ score[i]);
 		}
+		
+		System.out.println("======================");
+		
+		// 초기화
+		int[] score2 = new int[] { 88, 99, 70, 55, 100 };
+		
+		for (int i = 0; i < score2.length; i++) {
+			System.out.println((i+1) + "번 학생의 성적: "
+					+ score[i]);
+		}
 	}
 }
