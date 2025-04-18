@@ -35,5 +35,7 @@ public class Array_Example01 {
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i] + " ");
 		}
+		
+		scan.close();
 	}
 }
