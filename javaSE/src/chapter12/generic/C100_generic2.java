@@ -1,5 +1,7 @@
 package chapter12.generic;
 
+import java.util.ArrayList;
+
 public class C100_generic2 {
 	public static void main(String[] args) {
 /*
@@ -21,5 +23,17 @@ public class C100_generic2 {
 		  T - Type
 		  V - Value
  */
+		ArrayList arNum = new ArrayList();
+		arNum.add(1);
+		arNum.add("문자열");
+		
+//		int value = arNum.get(0);	//object라 캐스팅 필요
+		int value = (int) arNum.get(0);
+		System.out.println(value);
+//		int value2 = (int) arNum.get(1); // runtime error
+		
+		ArrayList<Integer> arNum2 = new ArrayList<>(); // 다이아몬드 연산자로 타입 추
+		arNum2.add(1);
+//		arNum2.add("문자열"); // compile error
 	}
 }
