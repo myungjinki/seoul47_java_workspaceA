@@ -23,7 +23,7 @@ class Room<T> {
 }
 
 // 이런 코드가 심심치 않게 보임!!!
-public class C107_generic_wildcards {
+public class C106_generic_wildcards {
 	
 	// 1. <? extends Human> : Human과 그 하위 타입만 허용
 	static void printMan(Room<? extends Human> room) {
